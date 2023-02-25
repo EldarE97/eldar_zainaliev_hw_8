@@ -33,6 +33,6 @@ public abstract class GameEntity {
 
     @Override
     public String toString() {
-        return this.name + " health: " + this.health + " damage: " + this.damage;
+        return this.name + " health: " + this.health + ", damage: " + this.damage;
     }
 }

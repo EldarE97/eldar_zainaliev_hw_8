@@ -8,7 +8,7 @@ public class RPG_Game {
     private static int roundNumber;
 
     public static void startGame() {
-        Boss boss = new Boss(1000, 50, "Rashan Boss");
+        Boss boss = new Boss(2000, 50, "Rashan Boss");
         Warrior warrior = new Warrior(280, 10, "Axe Warrior");
         Medic doc = new Medic(250, 5, 15, "Duzzle Medic");
         Magic magic = new Magic(270, 20, "Hendolf Magic");
